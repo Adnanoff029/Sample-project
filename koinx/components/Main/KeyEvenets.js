@@ -1,7 +1,7 @@
 export default function KeyEvenets() {
   return (
     <div className="key-events">
-      <div className="key-events-item text-[18px] font-medium my-3">
+      <div className="key-events-item text-[18px] font-medium my-3 font-Inter">
         Key Events
       </div>
       <div className="key-events-item flex items-center justify-between gap-[10px] my-[18px]">

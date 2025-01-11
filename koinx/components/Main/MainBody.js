@@ -4,6 +4,7 @@ import TradingViewWidget from "../Charts/bitcoin";
 import "./Main.css";
 import MainOverview from "./MainOverview";
 import MainSentiment from "./MainSentiment";
+import About from "./About";
 
 export default function MainBody() {
   return (
@@ -14,7 +15,7 @@ export default function MainBody() {
         </div>
         <MainOverview />
         <MainSentiment />
-        <div></div>
+        <About />
         <div></div>
         <div></div>
       </div>
