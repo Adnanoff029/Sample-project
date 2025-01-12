@@ -4,7 +4,7 @@ export default function KeyEvenets() {
       <div className="key-events-item text-[18px] font-medium my-3 font-Inter">
         Key Events
       </div>
-      <div className="key-events-item flex items-center justify-between gap-[10px] my-[18px]">
+      <div className="key-events-item flex items-center justify-between gap-[10px] my-[18px] flex-col md:flex-row">
         <div className="bg-blue-200 w-[100%] p-3 rounded-[12px] flex items-start justify-start gap-2">
           <img src="/Events1.svg" />
           <div className="text-[14px] font-[SFProText]">

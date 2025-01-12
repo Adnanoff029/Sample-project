@@ -96,7 +96,7 @@ export default function MainOverview() {
               </div>
               <div>
                 <div className="text-[18px] font-[500]">Fundamentals</div>
-                <div className="grid grid-cols-2 gap-[100px] py-[5px]">
+                <div className="grid md:grid-cols-2 md:gap-[100px] py-[5px]">
                   <div>
                     <div className="flex items-center justify-between py-[10px] border-b-2 border-gray-300">
                       <div className="text-[rgba(118,131,150,1)] text-[14px] weight-[500]">

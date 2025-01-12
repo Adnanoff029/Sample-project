@@ -1,5 +1,26 @@
 /* Frame 26862 */
 
+@media screen and (max-width: 600px) {
+  .navbar-links{
+    display: none;
+  }
+  .burger-menu{
+    cursor: pointer;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+  }  
+  .burger-menu{
+    display: none;
+  }
+}
 .navbar {
   /* position: absolute; */
   width: 100%;
@@ -16,12 +37,6 @@
   font-weight: 600;
 }
 
-.navbar-links {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  cursor: pointer;
-}
 
 .navbar-links-item:hover{
   color: #3a3939;
